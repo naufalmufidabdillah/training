@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript Variables</h1>
+
+<p>In this example, x, y, and z are variables.</p>
+
+<p id="demo1"></p>
+<p id="demo2"></p>
+
+<p>The result of adding "John" + " " + "Doe" is:</p>
+<p id="demo3"></p>
+
+
+<script>
+const x = 5;
+const y = 6;
+const z = x + y;
+
+document.getElementById("demo1").innerHTML = "the value of z is " + z;
+
+
+const pi = 3.14;
+let person = "John Doe";
+let answer = 'Yes I am!';
+
+document.getElementById("demo2").innerHTML = pi + "<br>" + person + "<br>" + answer;
+
+let name = "john" + " " + "doe";
+document.getElementById("demo3").innerHTML = name
+</script>
+
+</body>
+</html>
